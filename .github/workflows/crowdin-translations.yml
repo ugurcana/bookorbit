@@ -7,8 +7,6 @@ on:
         description: "Comma-separated locale:message.key acknowledgements for intentional translation removals"
         required: false
         type: string
-  schedule:
-    - cron: "47 5 * * *"
 
 permissions:
   contents: read
